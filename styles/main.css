@@ -1,0 +1,93 @@
+/* SITE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+/* SITE ROOTS */
+:root {
+    --site-font: 'Lexend', sans-serif;
+    --primary-color: #4CFDC7;
+    --title-color: #000000;
+    --subtitle-color: #18181B;
+    --text-color: #27272A;
+    --footer-link-color: #3F3F46;
+    --btn-border-r: 4px;
+}
+
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--site-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1136px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-radius: var(--btn-border-r);
+    color: #01271C;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-radius: var(--btn-border-r);
+    color: var(--subtitle-color);
+    border: 1px solid var(--subtitle-color);
+}
+
+
+/* HEADER */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    column-gap: 32px;
+}
+
+.header-wrap {
+    display: flex;
+    column-gap: 23px;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    column-gap: 7px;
+}
+
+.header-link img {
+    margin-left: 7px;
+}
+
+.header-buttons a {
+    padding: 9px 17px;
+    font-size: 12px;
+    font-weight: 400;
+}
