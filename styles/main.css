@@ -124,3 +124,79 @@ input {
     align-items: start;
     background-color: azure;
 }
+
+/* PRICES SECTION */
+.prices {
+    margin-top: 115px;
+}
+
+.prices-wrapper {
+    display: flex;
+    column-gap: 132px;
+}
+
+.prices-left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.prices-title {
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 1px;
+    color: var(--title-color);
+    margin-bottom: 34px;
+}
+
+.prices-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    color: var(--text-color);
+    max-width: 461px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.prices-buttons {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.prices-buttons a {
+    padding: 9px 33px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    color: var(--subtitle-color);
+}
+
+.prices-rate {
+    display: flex;
+    align-items: center;
+}
+
+.rate-stars {
+    margin: 0 12px 0 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.prices-rate-logo {
+    display: flex;
+    align-items: center;
+}
+
+.rate-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    color: var(--text-color);
+}
