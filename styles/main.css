@@ -194,7 +194,7 @@ input {
     align-items: center;
 }
 
-.prices-right img{
+.prices-right img {
     transform: translateX(-70px) translateY(5px);
 }
 
@@ -314,11 +314,11 @@ input {
     color: var(--subtitle-color);
 }
 
-.movers-bottom-link img{
+.movers-bottom-link img {
     transition: .5s;
 }
 
-.movers-bottom-link:hover img{
+.movers-bottom-link:hover img {
     transform: translateX(10px);
 }
 
@@ -351,4 +351,99 @@ input {
 .crypto-icon-4 {
     z-index: 4;
     right: 17px;
+}
+
+/* WHY SECTION */
+.why {
+    margin-top: 124px;
+    margin-bottom: 174px;
+}
+
+.why-title {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.why-wrapper {
+    display: flex;
+    margin-top: 118px;
+    justify-content: space-around;
+}
+
+.why-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-subtitle {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--subtitle-color);
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+.why-text {
+    max-width: 269px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+/* TRADE SECTION */
+.trade {
+    margin-bottom: 200px;
+}
+
+.trade-wrapper {
+    display: flex;
+    column-gap: 49px;
+    align-items: center;
+}
+
+.trade-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--subtitle-color);
+    text-transform: uppercase;
+}
+
+.trade-title {
+    margin: 16px 0 64px 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: var(--subtitle-color);
+}
+
+.trade-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px 91px;
+}
+
+.trade-box-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 8px 0 18px 0;
+    color: var(--subtitle-color);
+}
+
+.trade-box-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: var(--subtitle-color);
 }
