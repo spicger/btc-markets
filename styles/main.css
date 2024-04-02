@@ -399,18 +399,21 @@ input {
     color: var(--text-color);
 }
 
-/* TRADE SECTION */
-.trade {
+/* TRADE & WALLET SECTION */
+.trade,
+.wallet {
     margin-bottom: 200px;
 }
 
-.trade-wrapper {
+.trade-wrapper,
+.wallet-wrapper {
     display: flex;
     column-gap: 49px;
     align-items: center;
 }
 
-.trade-subtitle {
+.trade-subtitle,
+.wallet-subtitle {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -418,7 +421,8 @@ input {
     text-transform: uppercase;
 }
 
-.trade-title {
+.trade-title,
+.wallet-title {
     margin: 16px 0 64px 0;
     font-size: 40px;
     font-weight: 400;
@@ -426,13 +430,15 @@ input {
     color: var(--subtitle-color);
 }
 
-.trade-wrap {
+.trade-wrap,
+.wallet-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 54px 91px;
 }
 
-.trade-box-title {
+.trade-box-title,
+.wallet-box-title {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -440,10 +446,152 @@ input {
     color: var(--subtitle-color);
 }
 
-.trade-box-text {
+.trade-box-text,
+.wallet-box-text {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.20000000298023224px;
     color: var(--subtitle-color);
+}
+
+/* EXCHANGE SECTION */
+.exchange {
+    padding-top: 128px;
+    background: #FAFAFA;
+}
+
+.exchange-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exchange-subtitle {
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--subtitle-color);
+}
+
+.exchange-title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.10000000149011612px;
+    color: var(--subtitle-color);
+    text-align: center;
+    max-width: 527px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.exchange-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: var(--text-color);
+    margin-bottom: 48px;
+}
+
+.exchange-wrap {
+    display: flex;
+    column-gap: 77px;
+    margin-bottom: 86px;
+}
+
+.exchange-box {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: var(--subtitle-color);
+}
+
+.exchange .btn-secondary {
+    padding: 9px 35px;
+    margin-bottom: 64px;
+}
+
+.exchange-img,
+.exchange-img img {
+    width: 100%;
+}
+
+/* STEP SECTION */
+.step {
+    margin: 80px 0;
+}
+
+.step-title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: var(--title-color);
+    text-align: center;
+    max-width: 395px;
+    width: 100%;
+    margin: 0 auto 86px auto;
+}
+
+.step-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.step-icon {
+    background: #FCFBF8;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.step-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--subtitle-color);
+}
+
+.step-text {
+    max-width: 257px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.exchange-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.step .btn-primary {
+    padding: 9px 33px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    color: var(--title-color);
+    border: 0;
+    margin-top: 46px;
+    margin-bottom: 32px;
+}
+
+.step .prices-rate {
+    justify-content: center;
 }
