@@ -162,6 +162,11 @@
     .exchange-text {
         text-align: center;
     }
+
+    .step-wrap {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -211,7 +216,8 @@
 
     .trade-title,
     .wallet-title,
-    .font-size {
+    .font-size ,
+    .program-title{
         font-size: 33px;
     }
 

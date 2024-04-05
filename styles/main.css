@@ -595,3 +595,120 @@ input {
 .step .prices-rate {
     justify-content: center;
 }
+
+/* PROGRAM SECTION */
+.program {
+    margin: 50px 0 100px 0;
+}
+
+.program-title {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: var(--title-color);
+}
+
+.program-text {
+    max-width: 517px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin: 24px 0 30px 0;
+    color: var(--text-color);
+}
+
+.program-img {
+    margin-bottom: 19px;
+}
+
+.program-boxxer {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 34px;
+}
+
+
+.program .rate-stars {
+    margin-left: 0;
+}
+
+.program-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: var(--subtitle-color);
+}
+
+/* NEWS SECTION */
+.news {
+    border-top: 1px solid #D4D4D8;
+    padding: 50px 0 100px 0;
+}
+
+.news-title {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: var(--subtitle-color);
+    margin-bottom: 64px;
+}
+
+.news-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-boxxer {
+    padding: 16px 17px 32px 17px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 16px 0px #09181A0A;
+}
+
+.news-box {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+}
+
+.news-box-type {
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    background-color: #BDFFEB;
+}
+
+.news-box-date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: var(--subtitle-color);
+}
+
+.news-subtitle {
+    margin: 16px 0 32px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 324px;
+    width: 100%;
+    color: var(--subtitle-color);
+}
+
+.news-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: var(--subtitle-color);
+}
