@@ -185,6 +185,11 @@
         flex-wrap: wrap;
         row-gap: 20px;
     }
+
+    .footer-boxxer {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -237,6 +242,11 @@
         overflow: initial;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .footer-series,
+    .footer-copy {
+        text-align: center;
     }
 }
 
